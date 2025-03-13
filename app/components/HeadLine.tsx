@@ -1,3 +1,4 @@
+/* eslint @typescript-eslint/no-explicit-any: 0 */
 import Image from "next/image";
 
 export function HeadLine(props: any) {
