@@ -29,7 +29,7 @@ export const Hero = () => {
             className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto"
           >
             テクノロジーとクリエイティビティを組み合わせて、
-            ユーザー体験を向上させるWebアプリケーションを開発しています。
+            ユーザー体験を向上させるアプリケーションを開発しています。
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -44,10 +44,10 @@ export const Hero = () => {
               プロジェクトを見る
             </a>
             <a
-              href="#contact"
+              href="#skills"
               className="px-8 py-3 border-2 border-blue-600 text-blue-600 rounded-full hover:bg-blue-50 transition-colors duration-200"
             >
-              お問い合わせ
+              スキルを見る
             </a>
           </motion.div>
         </motion.div>
