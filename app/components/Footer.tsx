@@ -94,7 +94,7 @@ export const Footer = () => {
           viewport={{ once: true }}
           className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400"
         >
-          <p>&copy; {currentYear} zakinori's Portfolio. All rights reserved.</p>
+          <p>&copy; {currentYear} zakinori&apos;s Portfolio. All rights reserved.</p>
         </motion.div>
       </div>
     </footer>
