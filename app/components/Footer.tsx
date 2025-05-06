@@ -1,7 +1,6 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import Link from 'next/link';
 import Image from 'next/image';
 
 export const Footer = () => {
@@ -25,34 +24,6 @@ export const Footer = () => {
               現在はSESとして活動する傍ら、サービス開発に着手中。
             </p>
           </motion.div>
-
-          {/* リンクセクション */}
-          {/* <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.1 }}
-            viewport={{ once: true }}
-            className="space-y-4"
-          >
-            <h3 className="text-xl font-bold">リンク</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="#about" className="text-gray-400 hover:text-white transition-colors">
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link href="#projects" className="text-gray-400 hover:text-white transition-colors">
-                  Projects
-                </Link>
-              </li>
-              <li>
-                <Link href="#skills" className="text-gray-400 hover:text-white transition-colors">
-                  Skills
-                </Link>
-              </li>
-            </ul>
-          </motion.div> */}
 
           {/* コンタクトセクション */}
           <motion.div
