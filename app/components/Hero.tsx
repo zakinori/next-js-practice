@@ -19,18 +19,20 @@ export const Hero = () => {
             className="text-4xl sm:text-6xl font-bold text-gray-900 mb-6"
           >
             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Creative Developer
+            About Me
             </span>
           </motion.h1>
-          <motion.p
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto"
           >
-            テクノロジーとクリエイティビティを組み合わせて、
-            ユーザー体験を向上させるアプリケーションを開発しています。
-          </motion.p>
+            <p className="mb-4">はじめまして。平崎 裕紀と申します。</p>
+            <p className="mb-4">テクノロジーの力で事業活動を円滑化するために行動しております。</p>
+            <p className="mb-4">サービス開発にも興味があり、現在はSESとして活動する傍ら、</p>
+            <p className="mb-4">副業としてサービス開発を行い、学習を進めております。</p>
+          </motion.div>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
