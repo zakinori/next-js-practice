@@ -39,7 +39,11 @@ export const ProjectModal = ({ isOpen, onClose, project }: ProjectModalProps) =>
         >
           <div className="relative aspect-video">
             <div className="absolute inset-0 bg-gray-200">
-              {/* 画像を追加する場合はここに配置 */}
+              <img 
+                src={project.image} 
+                alt={project.title} 
+                className="w-full h-full object-contain"
+              />
             </div>
           </div>
           

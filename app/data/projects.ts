@@ -13,41 +13,39 @@ export type Project = {
 export const projectsData = {
   projects: [
     {
-      title: "まとめサイト保守運営",
-      description: "クローラーを利用した情報収集と、まとめサイトの保守運営を行っています。",
-      image: "/project1.jpg",
-      technologies: ["Python", "PowerShell", "GIT"] as const,
-      period: "2023年4月 - 現在",
-      role: "保守・運用担当",
-      details: "定期的な情報収集と更新、サイトのパフォーマンス改善、セキュリティ対策を実施しています。",
+      title: "医療関係基幹システム刷新",
+      description: "スクラムを利用したシステム刷新を行っています。",
+      image: "/nextjs-logotype-light-background.png",
+      technologies: ["Next.js", "Node.js", "PostgreSQL", "AWS", "Slack", "GIT", "Jira", "Confluence"] as const,
+      period: "2025年03月 - 現在",
+      role: "フルスタック開発者",
+      details: "フロント部分のWebアプリケーションを開発を実施していましたが、今後はバックエンドの刷新を行う予定です。",
       challenges: [
-        "クローラーの安定性確保",
-        "収集データの品質管理",
-        "サイトのレスポンス改善"
+        "フロントエンドの刷新",
+        "バックエンドの刷新",
+        "AWS関連のPoC"
       ] as const,
       achievements: [
-        "自動更新システムの構築",
-        "ページロード時間の50%改善",
-        "セキュリティ脆弱性の解消"
+        "アジャイル開発（スクラム）手法の理解",
+        "開発環境セットアップ手順の改善",
+        "NEXT.jsの学習を進めてポートフォリオサイトを作成"
       ] as const
     },
     {
-      title: "物流パッケージ開発",
-      description: "小規模でクローズドのネットワークを持つ拠点向けのパッケージ開発を行っています。",
-      image: "/project2.jpg",
-      technologies: ["Next.js", "Node.js", "SQLite"] as const,
-      period: "2023年10月 - 現在",
-      role: "フルスタック開発者",
-      details: "物流拠点の業務効率化のためのWebアプリケーションを開発しています。",
+      title: "まとめサイト保守運営",
+      description: "クローラーを利用した情報収集と、まとめサイトの保守運営を行っています。",
+      image: "/python-logo-master-v3-TM-flattened.png",
+      technologies: ["Python", "PowerShell", "GIT", "Cursor"] as const,
+      period: "2023年4月 - 現在",
+      role: "クローラー開発担当",
+      details: "定期的な情報収集と更新サイトの構築案を作成しています。",
       challenges: [
-        "オフライン対応の実装",
-        "データ同期の最適化",
-        "UI/UXの改善"
+        "収集データの品質管理",
+        "サイト負荷を考慮したディレイの実装・ROBOT.txtの考慮"
       ] as const,
       achievements: [
-        "業務効率の30%向上",
-        "データ入力ミスの90%削減",
-        "ユーザー満足度の向上"
+        "最適な情報収集案の提示",
+        "収集情報の保管方法について提案・改善"
       ] as const
     },
     {
