@@ -14,21 +14,21 @@ export const projectsData = {
   projects: [
     {
       title: "医療関係基幹システム刷新",
-      description: "スクラムを利用したシステム刷新を行っています。",
+      description: "スクラムを利用したシステム刷新を行っていました。",
       image: "/nextjs-logotype-light-background.png",
-      technologies: ["Next.js", "Node.js", "PostgreSQL", "AWS", "Slack", "GIT", "Jira", "Confluence"] as const,
-      period: "2025年03月 - 現在",
+      technologies: ["Next.js", "Node.js", "PostgreSQL", "AWS CDK", "GitHubActions", "Slack", "Jira", "Confluence"] as const,
+      period: "2025年03月 - 2025年12月",
       role: "フルスタック開発者",
-      details: "フロント部分のWebアプリケーションを開発を実施していましたが、今後はバックエンドの刷新を行う予定です。",
+      details: "フロント部分のWebアプリケーションを開発、および、GitHubActions+AWS CDKのCI/CDを担当。",
       challenges: [
         "フロントエンドの刷新",
         "バックエンドの刷新",
-        "AWS関連のPoC"
+        "AWS関連のPoC",
       ] as const,
       achievements: [
         "アジャイル開発（スクラム）手法の理解",
         "開発環境セットアップ手順の改善",
-        "NEXT.jsの学習を進めてポートフォリオサイトを作成"
+        "NEXT.jsの学習を目的にポートフォリオサイトを作成",
       ] as const
     },
     {
@@ -41,11 +41,28 @@ export const projectsData = {
       details: "定期的な情報収集と更新サイトの構築案を作成しています。",
       challenges: [
         "収集データの品質管理",
-        "サイト負荷を考慮したディレイの実装・ROBOT.txtの考慮"
+        "サイト負荷を考慮したディレイの実装・ROBOT.txtの考慮",
       ] as const,
       achievements: [
         "最適な情報収集案の提示",
-        "収集情報の保管方法について提案・改善"
+        "収集情報の保管方法について提案・改善",
+      ] as const
+    },
+    {
+      title: "Webサービス刷新",
+      description: "老朽化したマッチングアプリのリプレースを行っています。",
+      image: "/laravel-logo.png",
+      technologies: ["PHP", "Laravel", "Vue.js", "MySql", "Docker", "GIT", "Slack", "Backlog"] as const,
+      period: "2025年1月 - 現在",
+      role: "フルスタック開発者",
+      details: "SymfonyからLaravelへの言語変更およびサイトリプレースを担当。",
+      challenges: [
+        "フロントエンドの刷新",
+        "バックエンドの刷新",
+      ] as const,
+      achievements: [
+        "Laravel Sailを利用した開発環境一括セットアップの理解",
+        "Laravelを利用したWebサービス構築方法の理解",
       ] as const
     },
     {
