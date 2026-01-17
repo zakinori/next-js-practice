@@ -32,6 +32,8 @@ export const skillsData = {
         { name: "PowerShell", years: 6 },
         { name: "Python", years: 3 },
         { name: "Node.js", years: 3 },
+        { name: "PHP", years: 1 },
+        { name: "Laravel", years: 1 },
       ]
     },
     {
@@ -66,6 +68,7 @@ export const skillsData = {
         { name: "Backlog", years: 7 },
         { name: "Notion", years: 8 },
         { name: "Trello", years: 4 },
+        { name: "Confluence", years: 1 },
       ]
     }
   ]
