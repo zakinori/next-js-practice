@@ -28,8 +28,8 @@ export const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto"
           >
-            <p className="mb-4">はじめまして。平崎 裕紀と申します。</p>
-            <p className="mb-4">テクノロジーの力で事業活動を円滑化するために行動しております。</p>
+            <p className="mb-4">はじめまして。ご覧いただきありがとうございます。</p>
+            <p className="mb-4">私はテクノロジーの力で事業活動を円滑化するために行動しております。</p>
             <p className="mb-4">サービス開発にも興味があり、現在はSESとして活動する傍ら、</p>
             <p className="mb-4">副業としてサービス開発を行い、学習を進めております。</p>
           </motion.div>
