@@ -35,13 +35,14 @@ export const projectsData = {
       title: "まとめサイト保守運営",
       description: "クローラーを利用した情報収集と、まとめサイトの保守運営を行っています。",
       image: "/python-logo-master-v3-TM-flattened.png",
-      technologies: ["Python", "PowerShell", "GIT", "Cursor"] as const,
-      period: "2023年4月 - 現在",
-      role: "クローラー開発担当",
+      technologies: ["Python", "PowerShell", "GIT", "Cursor", "Tailscale", "Ubuntu", "uvicorn"] as const,
+      period: "2025年4月 - 現在",
+      role: "クローラー開発担当, サーバー管理者",
       details: "定期的な情報収集と更新サイトの構築案を作成しています。",
       challenges: [
         "収集データの品質管理",
         "サイト負荷を考慮したディレイの実装・ROBOT.txtの考慮",
+        "共有サーバーの構築およびスクレイピングスクリプトのAPI化",
       ] as const,
       achievements: [
         "最適な情報収集案の提示",
@@ -52,8 +53,8 @@ export const projectsData = {
       title: "Webサービス刷新",
       description: "老朽化したマッチングアプリのリプレースを行っています。",
       image: "/laravel-logo.png",
-      technologies: ["PHP", "Laravel", "Vue.js", "MySql", "Docker", "GIT", "Slack", "Backlog"] as const,
-      period: "2025年1月 - 現在",
+      technologies: ["PHP", "Laravel", "Vue.js", "Filament", "MySql", "Docker", "GIT", "Slack", "Backlog"] as const,
+      period: "2026年1月 - 現在",
       role: "フルスタック開発者",
       details: "SymfonyからLaravelへの言語変更およびサイトリプレースを担当。",
       challenges: [
