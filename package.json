@@ -9,12 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@heroicons/react": "^2.2.0",
     "framer-motion": "^12.6.2",
     "next": "^15.5.9",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "tailwindcss-animate": "^1.0.7"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
